@@ -1,6 +1,7 @@
+""" Module to manage environment variables and BASE_DIR. """
 # my imports
-import environ
 from pathlib import Path
+import environ
 
 env = environ.Env()
 
